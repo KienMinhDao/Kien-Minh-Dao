@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Zain';
+    src: url("./Resources/zain-ExtraBold.ttf");
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    cursor:pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Navbar */
+.navbar {
+    margin: 0px;
+    height: 40px;
+    display: flex;
+    background-color: rgba(44, 202, 211, 0.8);
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+}
+
+img {
+    height: 40px;
+    border-radius: 12px;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../image/background.png");
+    background-origin: border-box;
+
+}
+
+h1 {
+    font-family: Zain;
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Main body */
+.main_body {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.left_side {
+    width: 300%;
+}
+
+.right_side {
+    width: 80%;
+}
+
+/* Left side */
+/* Nav line */
+.Nav_line {
+    display: flex;
+    margin-left: 10px;
+    border: 10%;
+
+}
+.underline{
+    margin-right: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+.underline:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.portfotilos {
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.portfotilos:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hr_blackline {
+    border-color: black;
+    border-radius: 10px;
+    margin: 0;
+    width: 95%;
+}
+
+/* Proflie boxes */
+
+.box {
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 90%;
+    height: auto;
+    background-color: rgba(38, 176, 183, 0.8);
+    border-color: rgba(0, 0, 0, 0.8)
+}
+
+.box:hover {
+    background-color: rgba(34, 172, 179, 0.8);
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flex_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile_image {
+    padding-top: 5px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.inform {
+    height: 10px;
+}
+
+.dot {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.tittle_box {
+    margin-left: 100px;
+}
+
+.p {
+    font-family: Zain;
+    font-size: 14px;
+    margin-top: 0;
+    Margin-bottom: 0;
+}
+
+/* Right side */
+/* Ranking */
+.ranking {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #93D0D4;
+    height: auto;
+    border-radius: 30px;
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+}
+
+.title {
+    display: flex;
+}
+
+.tt {
+    margin-left: 10px;
+}
+
+.line {
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 75%;
+}
+
+/* Rating */
+/* The image part */
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.seprate_line {
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 95%;
+}
+
+.img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    width: 90%;
+    height: auto;
+}
+
+/* The about part */
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_about {
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+
+.question {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.parap {
+    margin-left: 35px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(213, 213, 213);
+}
+
+.footer_paragraph {
+    margin: 0px;
+    font-size: smaller;
+}

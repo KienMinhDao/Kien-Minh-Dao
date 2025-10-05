@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Zain';
+    src: url("./Resources/zain-ExtraBold.ttf");
+}
+/* Navbar */
+.navbar {
+    margin: 0px;
+    height: 40px;
+    display: flex;
+    background-color: rgba(44, 202, 211, 0.8);
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+}
+
+img {
+    height: 40px;
+    border-radius: 12px;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../image/background.png");
+    background-origin: border-box;
+
+}
+
+h1 {
+    font-family: Zain;
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+/* Body part */
+.blue_boxes{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius:20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height:auto;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color:rgba(36,84,144, 0.8);
+    padding-left:20px;
+    padding-right:20px;
+}
+.upper_line{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-family: Zain;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.pdf{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.black_line{
+    border-color: black;
+}
+.main_part{
+    display:flex;
+}
+.left_side{
+    width:1450px;
+}
+.info_bar{
+    border-radius: 30px;
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    background-color: rgba(255,255,255,0.15);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:10px;
+}
+.white{
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Zain;
+    color: white;
+}
+.black{
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Zain;
+    color: black;
+}
+.info{
+    color:white;
+    font-family: Zain;
+    width:93%;
+    font-size: 20px;
+}
+.button_box{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border-radius: 100px;
+    display: flex;
+    margin-right: 60px;
+    width: 160px;
+    background-color: black;
+}
+.button_box:hover{
+    cursor: pointer;
+    transform: translateY(-2);
+}
+.word_more{
+    font-size: 45px;
+    color: white;
+    padding:0;
+    margin:0;
+}
+.plane{
+    margin-left:10px;
+    width: 30%;
+    height:30%;
+    border-radius: 100px;
+}
+.white_line{
+    width: 150px;
+    margin-left: -10px;
+}
+/* Footer */
+.footer {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(213, 213, 213);
+}
+
+.footer_paragraph {
+    margin: 0px;
+    font-size: smaller;
+}
